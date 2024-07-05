@@ -68,7 +68,7 @@ const ReservationCard: FC<ReservationCardProps> = ({ booking, onDelete }) => {
         </p>
 
         <div className="flex gap-5 mt-auto items-baseline">
-          <p className="text-xl font-semibold text-accent-400">${totalPrice}</p>
+          <p className="text-xl font-semibold text-accent-400">	&#8377;{totalPrice}</p>
           <p className="text-primary-300">&bull;</p>
           <p className="text-lg text-primary-300">
             {numGuests} guest{numGuests > 1 && 's'}
