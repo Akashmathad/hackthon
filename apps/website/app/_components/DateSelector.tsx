@@ -106,10 +106,10 @@ const DateSelector: FC<DateSelectorProps> = ({
             {discount > 0 ? (
               <>
                 <span className="text-2xl">
-                  ${Number(regularPrice) - discount}
+                  	&#8377;{Number(regularPrice) - discount}
                 </span>
                 <span className="line-through font-semibold text-primary-700">
-                  ${regularPrice}
+                  	&#8377;{regularPrice}
                 </span>
               </>
             ) : (
