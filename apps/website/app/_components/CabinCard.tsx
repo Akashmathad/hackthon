@@ -38,7 +38,7 @@ const CabinCard: FC<CabinCardProps> = ({ cabin }) => {
             {discount > 0 ? (
               <>
                 <span className="text-3xl font-[350]">
-                  ${Number(regularPrice) - discount}
+                  	&#8377;{Number(regularPrice) - discount}
                 </span>
                 <span className="line-through font-semibold text-primary-600">
                   ${regularPrice}
