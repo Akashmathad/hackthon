@@ -113,7 +113,7 @@ const DateSelector: FC<DateSelectorProps> = ({
                 </span>
               </>
             ) : (
-              <span className="text-2xl">${regularPrice}</span>
+              <span className="text-2xl">&#8377;{regularPrice}</span>
             )}
             <span className="">/night</span>
           </p>
@@ -124,7 +124,7 @@ const DateSelector: FC<DateSelectorProps> = ({
               </p>
               <p>
                 <span className="text-lg font-bold uppercase">Total</span>{' '}
-                <span className="text-2xl font-semibold">${cabinPrice}</span>
+                <span className="text-2xl font-semibold">&#8377;{cabinPrice}</span>
               </p>
             </>
           ) : null}
